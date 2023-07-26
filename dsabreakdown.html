@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Website Design & API's</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/headers/">
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="headers.css" rel="stylesheet">
+</head>
+
+<header class="d-flex flex-wrap w-100 p-1 mb-4 text-white bg-dark border-bottom">
+    <nav class="navbar navbar-expand-lg w-100">
+      <ul class="nav nav-pills mr-auto">
+  
+        <li class="nav-item"><a href="index.html" class="nav-link"><i class="fas fa-home"></i><em class="nav-text">&nbsp;Home</em></a></li>
+        <li class="nav-item"><a href="about.html" class="nav-link"><i class="far fa-address-card"></i><em class="nav-text">&nbsp;About Me</em></a></li>
+        <li class="nav-item"><a href="projects.html" class="nav-link active" aria-current="page"><i class="fas fa-project-diagram"></i><em class="nav-text">&nbsp;Projects</em></a></li>
+        <li class="nav-item"><a href="contact.html" class="nav-link"><i class="fas fa-address-book"></i><em class="nav-text">&nbsp;Contact</em></a></li>
+  
+      </ul>
+      <ul class="nav nav-pills d-none d-sm-flex">
+  
+        <li class="nav-item"><a href="https://www.linkedin.com/in/devPJ/" class="nav-link"><i class="fab fa-linkedin-in"></i></a></li>
+        <li class="nav-item"><a href="https://www.instagram.com/pjdevelopment98/" class="nav-link"><i class="fab fa-instagram-square"></i></a></li>
+      </ul>
+    </nav>
+</header>
+
+<body>
+   <div class="container-fluid">
+
+    <!--first row-->
+      <div class="row w-100 m-1">
+
+        <!--Left Col-->
+        <div class="col-xl-6 order-md-1 mt-md-2 left-box">
+
+            <div class = "container-fluid projects red m-2 p-2 h-100">
+
+                <h1><i class="fas fa-city"></i> Twin Cities Project</h1>
+                <hr>
+                <div class="row w-100 m-1">
+
+                    <div class = "col-sm-8 left-box">
+                        <p><b>Date: </b>19/10/2020 - 08/03/21</p>
+                        <p><b>Description: </b>The twin cities project was my first real step into integrating many different technologies for the purpose of one website. This was a large group project spanning half of my second year at university. This consisted of creating a MySQL database as the backbone of the website and connecting weather, social media and map API’s together for the final result.</p> 
+                        <p>From this I learnt, how to create a full stack web app with a MySQL and php backend, and JavaScript and html frontend. I learnt a number of skills including structure my website in an object-oriented way allowing the website to shape itself around the content selected by the user, as apposed to hardcoding everything. Myself and my group didn’t spend much time on the presentation of the website as it wasn’t marked, I think this is reflected as the appearance is lacking.</p>
+                        <p>The website allows the user is able to see various tourist attractions and notable landmarks in Liverpool and shanghai (the twin cities we chose to cover). User can mouse over the icons on the map and information about the landmark is displayed in a pop up. If the user clicks the icon, they are taken to an info page, where images are pulled from the server and Flickr.
+                        The Demo linked does not contain the live weather updates due to https restrictions on my website.
+                        </p>
+                         
+
+                    </div>
+                    <div class = "col-sm-4 right-box">
+
+                        <p><u>Tool's / API's / Etc Used</u></p>
+                        <ul>
+                            <li>Openweathermap API</li>
+                            <li>Google Maps API</li>
+                            <li>Twitter API</li>
+                            <li>Flickr API</li>
+                            <li>mySQL Database</li>
+                            <li>jQuery</li>
+                        </ul>
+
+                        <p><u>Click the text below to open!</u></p>
+                        <ul>
+                            <li><a href="https://github.com/pjholt1234/twincities"><p>Git Hub Repository</p></a></li>
+                        </ul>
+
+
+                        <a href="twincities/SelectCityPage.php"><div name = "breakdown" class="viewproject pdfbtn slide_left right">View Demo</div></a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!--Right Col-->
+        <div class="col-xl-6 order-md-2 mt-md-2 right-box">
+
+            <div class = "container-fluid projects red m-2 p-2 h-100">
+                <h3>Gallery</h3>
+                <hr>
+                <div class="container-lg my-3">
+                  <div id="mapCarousel" class="w-100 carousel slide" data-ride="carousel">
+                      <!-- Carousel indicators -->
+                      <ol class="carousel-indicators">
+                          <li data-target="#mapCarousel" data-slide-to="0" class="active"></li>
+                          <li data-target="#mapCarousel" data-slide-to="1"></li>
+                          <li data-target="#mapCarousel" data-slide-to="2"></li>
+                          <li data-target="#mapCarousel" data-slide-to="3"></li>
+                          <li data-target="#mapCarousel" data-slide-to="4"></li>
+                          <li data-target="#mapCarousel" data-slide-to="5"></li>
+                      </ol>
+                      <!-- Wrapper for carousel items -->
+                      <div class="carousel-inner">
+                          <div class="carousel-item active">
+                              <img src="/images/mapimages/liverpool.PNG" alt="liverpool" style = "width: 100%; height: auto;">
+                          </div>
+                          <div class="carousel-item">
+                              <img src="/images/mapimages/shanghai.PNG" alt="shanghai" style = "width: 100%; height: auto;">
+                          </div>
+                          <div class="carousel-item">
+                              <img src="/images/mapimages/seftonpark.PNG" alt="seftonpark" style = "width: 100%; height: auto;">
+                          </div>
+                          <div class="carousel-item">
+                              <img src="/images/mapimages/beatles.PNG" alt="beatles" style = "width: 100%; height: auto;">
+                          </div>
+                          <div class="carousel-item">
+                              <img src="/images/mapimages/yugarden.PNG" alt="yugarden" style = "width: 100%; height: auto;">
+                          </div>
+                          <div class="carousel-item">
+                              <img src="/images/mapimages/nanjroad.PNG" alt="nanjroad" style = "width: 100%; height: auto;">
+                          </div>
+                      </div>
+
+                      <!-- Carousel controls -->
+                      <a class="carousel-control-prev" href="#mapCarousel" data-slide="prev">
+                          <span class="carousel-control-prev-icon"></span>
+                      </a>
+                      <a class="carousel-control-next" href="#mapCarousel" data-slide="next">
+                          <span class="carousel-control-next-icon"></span>
+                      </a>
+                  </div>
+              </div>
+            </div>
+
+        </div>
+      </div>
+
+    </div>
+</body>
+</html>
